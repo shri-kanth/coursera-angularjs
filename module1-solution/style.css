@@ -1,0 +1,20 @@
+.container{
+    margin : auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#true{
+  color : green;
+  border : 3px solid green;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#false{
+  color : red;
+  border : 3px solid red;
+  margin-left: 25%;
+  margin-right: 12%;
+}
