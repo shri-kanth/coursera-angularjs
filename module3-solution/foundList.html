@@ -1,0 +1,20 @@
+<table>
+  <thead>
+    <th><strong>Name</strong></th>
+    <th><strong>Short Name</strong></th>
+    <th><strong>Description</strong></th>
+    <th><strong>Click to remove from list</strong></th>
+  </thead>
+  <tbody>
+        <tr ng-repeat="item in ctrl.found">
+          <td>{{item.name}}</td>
+          <td>{{item.short_name}}</td>
+          <td id="description">{{item.description}}</td>
+          <td>
+            <button type="button" name="button" ng-click="ctrl.remove($index)">
+            Don't want this One!
+            </button>
+          </td>
+        </tr>
+  </tbody>
+</table>
